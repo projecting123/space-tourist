@@ -61,7 +61,6 @@ nav {
 .navlist li {
     list-style: none;
     letter-spacing: 2px;
-    padding: 2rem 0;
 }
 
 .active{
@@ -74,6 +73,11 @@ nav {
     color: white;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 1rem;
+    padding-bottom: 2rem;
+}
+
+.active{
+    border-bottom: 2px solid white;
 }
 
 .navlist li a:hover {
