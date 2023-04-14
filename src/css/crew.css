@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('../../../assets/crew/background-crew-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    color: white;
+}
+
+html {
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+}
+
+header img {
+    height: 2rem;
+    margin: 2.8rem;
+    width: 1.9rem;
+}
+
+.line {
+    height: .01rem;
+    width: 29.5rem;
+    background-color: rgb(219, 219, 219);
+    position: absolute;
+    top: 3.8rem;
+    left: 8rem;
+    opacity: 0.4;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    margin-top: 1.8rem;
+    width: 97%;
+}
+
+.navlist {
+    display: flex;
+    gap: 3.1rem;
+    background: repeating-linear-gradient(90deg, #1b1e30, #55637D, #2a2f49, #4d6592);
+    height: 1.8rem;
+    padding: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.navlist :nth-child(4) {
+    padding-right: 3.05rem;
+}
+
+.navlist li {
+    list-style: none;
+    letter-spacing: 2px;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1rem;
+}
+
+.navlist li a:hover {
+    color: aquamarine;
+}
+
+#heading {
+    color: white;
+    margin-top: 3vh;
+    margin-left: 10vw;
+    font-size: 1.6rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    margin-left: 10vw;
+    margin-top: 15vh;
+    gap: 3vh;
+}
+
+#profession {
+    font-size: 2rem;
+    font-family: 'Bellefair', serif;
+    opacity: 0.7;
+}
+
+#name {
+    font-size: 3.5rem;
+    font-family: 'Bellefair', serif;
+}
+
+#desc {
+    text-align: justify;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.125rem;
+    width: 26rem;
+}
+
+.intro {
+    display: flex;
+    gap: 10vw;
+}
+
+.img img {
+    height: 72vh;
+}
+
+.circle-link {
+    display: flex;
+    gap: 2rem;
+    margin-top: 5vh;
+}
+
+.link a div {
+    height: 1rem;
+    width: 1rem;
+    background-color: rgb(53, 50, 50);
+    border-radius: 8px;
+}
+
+.link a div:hover {
+    background-color: white;
+}
+
+#line {
+    height: 0.1px;
+    width: 90vw;
+    background-color: white;
+    opacity: 0.5;
+    display: none;
+}
+
+.sub-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+@media screen and (max-width: 280px){
+    body{
+        display: none;
+    }
+}
+@media screen and (max-width: 375px) {
+    html {
+        font-size: 45%;
+    }
+
+    body {
+        background: url('../../assets/crew/background-crew-mobile.jpg');
+        border-style: cover;
+        background-repeat: no-repeat;
+    }
+
+    .navlist {
+        display: none;
+    }
+
+    .line {
+        display: none;
+    }
+
+    #line {
+        display: block;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        margin-left: 0vw;
+        margin-top: 0vh;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #profession {
+        text-align: center;
+        width: 60vw;
+    }
+
+    #name {
+        font-size: 8vw;
+    }
+
+    #desc {
+        width: 80vw;
+    }
+
+    .intro {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 0vh;
+    }
+
+    .sub-content {
+        align-items: center;
+    }
+
+    .img img {
+        height: 45vh;
+        width: 40vw;
+        margin-top: 2rem;
+        margin-left: 4rem;
+    }
+
+    #heading {
+        margin-left: 0vw;
+        text-align: center;
+    }
+
+    header img {
+        height: 2.5rem;
+        width: 2.4rem;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+    html {
+        font-size: 65%;
+    }
+
+    body {
+        background: url('../../assets/crew/background-crew-tablet.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+    }
+
+    .navlist{
+        display: none;
+    }
+
+    .line {
+        display: none;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    .circle-link{
+        justify-content: center;
+    }
+
+    .sub-content{
+        align-items: center;
+    }
+
+    #heading{
+        font-size: 2.5vw;
+        margin-left: 0vw;
+        text-align: center;
+    }
+
+    #profession{
+        font-size: 3.5vw;
+    }
+
+    .content{
+        width: 76vw;
+        margin-left: 0vw;
+        margin-top: 1rem;
+    }
+
+    #name{
+        font-size: 4.5vw;
+    }
+
+    #desc{
+        width: 62vw;
+    }
+
+    .img{
+        margin-left: 2rem;
+    }
+    
+    .img img{
+        height: 38vh;
+        width: 35vw;
+    }
+
+    header img{
+        margin: 1.5rem 0 1.5rem 1.5rem;
+        height: 2.5rem;
+        width: 2.4rem;
+    }
+}
+
+@media screen and (width: 768px) {
+    html {
+        font-size: 75%;
+    }
+
+    body {
+        background: url('../../assets/crew/background-crew-tablet.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    header img {
+        margin: 2.5rem 1.5rem 0rem 5rem;
+        height: 2.7rem;
+        width: 2.5rem;
+    }
+
+    nav {
+        margin-top: 0rem;
+    }
+
+    .navlist {
+        display: flex;
+        width: 55vw;
+        height: 2.2rem;
+        gap: 6vw;
+    }
+
+    #heading{
+        text-align: left;
+        margin-left: 5rem;
+        margin-top: 4rem;
+    }
+
+    header img{
+        margin-top: 1.2rem;
+    }
+
+    .intro{
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    html {
+        font-size: 80%;
+    }
+
+    .navlist {
+        height: 3rem;
+        background: linear-gradient(90deg, #1b1e30, #55637D, #2a2f49, #4d6592);
+        ;
+        gap: 4.3vw;
+    }
+
+    .line {
+        width: 33vw;
+        top: 4.4rem;
+    }
+
+    header img {
+        margin: 2.9rem 1.5rem 0rem 3rem;
+        height: 2.7rem;
+        width: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .navlist {
+        width: 42vw;
+        gap: 3vw;
+    }
+
+    .line {
+        width: 48vw;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .navlist {
+        gap: 4vw;
+    }
+
+    .line {
+        width: 52vw;
+    }
+}
+
+@media screen and (min-width: 1720px) {
+    .navlist {
+        gap: 5.3vw;
+    }
+
+    .line {
+        width: 54vw;
+    }
+}
+
+@media screen and (min-width: 2181px) {
+    .navlist {
+        gap: 6vw;
+    }
+
+    .line {
+        width: 57vw;
+    }
+}
