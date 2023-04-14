@@ -61,7 +61,13 @@ nav {
 .navlist li {
     list-style: none;
     letter-spacing: 2px;
+    padding: 2rem 0;
 }
+
+.active{
+    border-bottom: 2px solid white;  
+}
+
 
 .navlist li a {
     text-decoration: none;
