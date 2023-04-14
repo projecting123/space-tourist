@@ -60,6 +60,11 @@ nav {
 
 .navlist li {
     list-style: none;
+    padding: 2rem 0;
+}
+
+.active{
+    border-bottom: 2px solid white;  
 }
 
 .navlist li a {
