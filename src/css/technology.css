@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url('/assets/technology/background-technology-desktop.jpg');
+    background: url('/space-tourist/assets/technology/background-technology-desktop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Montserrat', sans-serif;
@@ -166,7 +166,7 @@ nav {
     }
 
     body {
-        background: url('../../assets/technology/background-technology-mobile.jpg');
+        background: url('/space-tourist/assets/technology/background-technology-mobile.jpg');
         border-style: cover;
         background-repeat: no-repeat;
         height: 100vh;
@@ -257,7 +257,7 @@ nav {
     }
 
     body {
-        background: url('../../assets/technology/background-technology-tablet.jpg');
+        background: url('/space-tourist/assets/technology/background-technology-tablet.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         height: 100vh;
@@ -291,7 +291,7 @@ nav {
     }
 
     body {
-        background: url('../../assets/technology/background-technology-tablet.jpg');
+        background: url('/space-tourist/assets/technology/background-technology-tablet.jpg');
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -336,7 +336,7 @@ nav {
     }
 
     body {
-        background: url('/assets/technology/background-technology-desktop.jpg');
+        background: url('/space-tourist/assets/technology/background-technology-desktop.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         height: 100vh;
