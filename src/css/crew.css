@@ -390,7 +390,7 @@ nav {
 
     .navlist {
         height: 3rem;
-        background: linear-gradient(90deg, #1b1e30, #55637D, #2a2f49, #4d6592);;
+        background: #1b1e30;
         gap: 4.3vw;
     }
 
