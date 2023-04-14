@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url('../../../assets/crew/background-crew-desktop.jpg');
+    background: url('/space-tourist/assets/crew/background-crew-desktop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Montserrat', sans-serif;
@@ -161,7 +161,7 @@ nav {
     }
 
     body {
-        background: url('../../assets/crew/background-crew-mobile.jpg');
+        background: url('/space-tourist/assets/crew/background-crew-mobile.jpg');
         border-style: cover;
         background-repeat: no-repeat;
     }
@@ -237,7 +237,7 @@ nav {
     }
 
     body {
-        background: url('../../assets/crew/background-crew-tablet.jpg');
+        background: url('/space-tourist/assets/crew/background-crew-tablet.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         width: 100vw;
@@ -317,7 +317,7 @@ nav {
     }
 
     body {
-        background: url('../../assets/crew/background-crew-tablet.jpg');
+        background: url('/space-tourist/assets/crew/background-crew-tablet.jpg');
         background-size: cover;
         background-repeat: no-repeat;
     }
