@@ -263,7 +263,7 @@ nav {
     }
 
     body {
-        background: url('../../assets/destination/background-destination-tablet.jpg');
+        background: url('../../assets/destination/background-destination-mobile.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         height: 100vh;
