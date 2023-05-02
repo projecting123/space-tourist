@@ -173,7 +173,7 @@ main {
 
 @media screen and (min-width: 376px) and (max-width: 767px) {
     html {
-        font-size: 65%;
+        font-size: 80%;
     }
 
     body {
@@ -212,7 +212,7 @@ main {
 
 @media screen and (min-width: 768px) and (max-width: 768px) {
     html {
-        font-size: 75%;
+        font-size: 85%;
     }
 
     body {
@@ -266,7 +266,7 @@ main {
 
 @media screen and (min-width: 769px){
     html{
-        font-size: 80%;
+        font-size: 100%;
     }
 
     .navlist{
