@@ -91,7 +91,6 @@ main {
 .allPara {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 #firstPara {
